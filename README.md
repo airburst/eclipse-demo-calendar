@@ -2,7 +2,7 @@
 
 A demo calendar component for users to view merged checklist items and outlook events.
 
-Uses [https://github.com/intljusticemission/react-big-calendar](react-big-calendar) for the main view.
+Uses (react-big-calendar)[https://github.com/intljusticemission/react-big-calendar] for the main view.
 
 Customised styles and source property on events (to enable different styling for sources).
 
