@@ -3,13 +3,13 @@ import moment from 'moment';
 import BigCalendar from 'react-big-calendar';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 // import './balloon.css';
-import { events } from './events.json';
+import { data } from './eclipse.json';
 
 const convertDateFromString = (string) => {
     return moment(string, 'YYYYMMDDTHH:mm:SS').toDate();
 };
 
-const parsedEvents = events.map(e => {
+const parsedEvents = data.map(e => {
     return Object.assign(e, {
         start: convertDateFromString(e.start),
         end: convertDateFromString(e.end)
@@ -18,7 +18,7 @@ const parsedEvents = events.map(e => {
 
 const MyEvent = ({ event }) => {
     return (
-        <span>MARK
+        <span>
             <strong>{event.title}</strong>
             <p>{event.desc}</p>
         </span>

@@ -1,0 +1,294 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "id": "-1",
+            "title": "New Year's Day",
+            "desc": null,
+            "start": "2014-01-01T00:00:00.000Z",
+            "end": "2014-01-01T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-2",
+            "title": "Good Friday",
+            "desc": null,
+            "start": "2014-04-17T23:00:00.000Z",
+            "end": "2014-04-17T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-3",
+            "title": "Easter Monday",
+            "desc": null,
+            "start": "2014-04-20T23:00:00.000Z",
+            "end": "2014-04-20T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-4",
+            "title": "Early May bank holiday",
+            "desc": null,
+            "start": "2014-05-04T23:00:00.000Z",
+            "end": "2014-05-04T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-5",
+            "title": "Spring bank holiday",
+            "desc": null,
+            "start": "2014-05-25T23:00:00.000Z",
+            "end": "2014-05-25T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-6",
+            "title": "Summer bank holiday",
+            "desc": null,
+            "start": "2014-08-24T23:00:00.000Z",
+            "end": "2014-08-24T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-7",
+            "title": "Christmas Day",
+            "desc": null,
+            "start": "2014-12-25T00:00:00.000Z",
+            "end": "2014-12-25T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-8",
+            "title": "Boxing Day",
+            "desc": null,
+            "start": "2014-12-26T00:00:00.000Z",
+            "end": "2014-12-26T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-9",
+            "title": "New Year's Day",
+            "desc": null,
+            "start": "2015-01-01T00:00:00.000Z",
+            "end": "2015-01-01T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-10",
+            "title": "Good Friday",
+            "desc": null,
+            "start": "2015-04-02T23:00:00.000Z",
+            "end": "2015-04-02T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-11",
+            "title": "Easter Monday",
+            "desc": null,
+            "start": "2015-04-05T23:00:00.000Z",
+            "end": "2015-04-05T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-12",
+            "title": "Early May bank holiday",
+            "desc": null,
+            "start": "2015-05-03T23:00:00.000Z",
+            "end": "2015-05-03T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-13",
+            "title": "Spring bank holiday",
+            "desc": null,
+            "start": "2015-05-24T23:00:00.000Z",
+            "end": "2015-05-24T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-14",
+            "title": "Summer bank holiday",
+            "desc": null,
+            "start": "2015-08-30T23:00:00.000Z",
+            "end": "2015-08-30T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-15",
+            "title": "Christmas Day",
+            "desc": null,
+            "start": "2015-12-25T00:00:00.000Z",
+            "end": "2015-12-25T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-16",
+            "title": "Boxing Day",
+            "desc": null,
+            "start": "2015-12-28T00:00:00.000Z",
+            "end": "2015-12-28T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-17",
+            "title": "New Year's Day",
+            "desc": null,
+            "start": "2016-01-01T00:00:00.000Z",
+            "end": "2016-01-01T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-18",
+            "title": "Good Friday",
+            "desc": null,
+            "start": "2016-03-25T00:00:00.000Z",
+            "end": "2016-03-25T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-19",
+            "title": "Easter Monday",
+            "desc": null,
+            "start": "2016-03-27T23:00:00.000Z",
+            "end": "2016-03-27T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-20",
+            "title": "Early May bank holiday",
+            "desc": null,
+            "start": "2016-05-01T23:00:00.000Z",
+            "end": "2016-05-01T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-21",
+            "title": "Spring bank holiday",
+            "desc": null,
+            "start": "2016-05-29T23:00:00.000Z",
+            "end": "2016-05-29T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-22",
+            "title": "Summer bank holiday",
+            "desc": null,
+            "start": "2016-08-28T23:00:00.000Z",
+            "end": "2016-08-28T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-23",
+            "title": "Boxing Day",
+            "desc": null,
+            "start": "2016-12-26T00:00:00.000Z",
+            "end": "2016-12-26T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-24",
+            "title": "Christmas Day",
+            "desc": null,
+            "start": "2016-12-27T00:00:00.000Z",
+            "end": "2016-12-27T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-25",
+            "title": "New Year's Day",
+            "desc": null,
+            "start": "2017-01-02T00:00:00.000Z",
+            "end": "2017-01-02T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-26",
+            "title": "Good Friday",
+            "desc": null,
+            "start": "2017-04-13T23:00:00.000Z",
+            "end": "2017-04-13T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-27",
+            "title": "Easter Monday",
+            "desc": null,
+            "start": "2017-04-16T23:00:00.000Z",
+            "end": "2017-04-16T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-28",
+            "title": "Early May bank holiday",
+            "desc": null,
+            "start": "2017-04-30T23:00:00.000Z",
+            "end": "2017-04-30T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-29",
+            "title": "Spring bank holiday",
+            "desc": null,
+            "start": "2017-05-28T23:00:00.000Z",
+            "end": "2017-05-28T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-30",
+            "title": "Summer bank holiday",
+            "desc": null,
+            "start": "2017-08-27T23:00:00.000Z",
+            "end": "2017-08-27T23:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-31",
+            "title": "Christmas Day",
+            "desc": null,
+            "start": "2017-12-25T00:00:00.000Z",
+            "end": "2017-12-25T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        },
+        {
+            "id": "-32",
+            "title": "Boxing Day",
+            "desc": null,
+            "start": "2017-12-26T00:00:00.000Z",
+            "end": "2017-12-26T00:00:00.000Z",
+            "type": "BHOL",
+            "source": "eclipse"
+        }
+    ],
+    "message": "Fetched all events"
+}
