@@ -1,28 +1,28 @@
 {
-    "events": [
-        {
-            "title": "Panel Meeting",
-            "allDay": false,
-            "start": "20170214T10:30:00",
-            "end": "20170214T11:30:00",
-            "desc": "A short meeting",
-            "source": "outlook"
-        },
-        {
-            "title": "Checklist Action: Visit Edith Swan",
-            "allDay": false,
-            "start": "20170216T9:00:00",
-            "end": "20170216T9:00:00",
-            "desc": "Checklist item C03463546",
-            "source": "eclipse"
-        },
-        {
-            "title": "Fostering and Adoption Workshop",
-            "allDay": true,
-            "start": "20170222T9:00:00",
-            "end": "20170224T17:00:00",
-            "desc": "Training course for new staff",
-            "source": "eclipse"
-        }
-    ]
+  "events": [
+    {
+      "title": "Panel Meeting",
+      "allDay": false,
+      "start": "20190214T10:30:00",
+      "end": "20190214T11:30:00",
+      "desc": "A short meeting",
+      "source": "outlook"
+    },
+    {
+      "title": "Checklist Action: Visit Edith Swan",
+      "allDay": false,
+      "start": "20190216T9:00:00",
+      "end": "20190216T9:00:00",
+      "desc": "Checklist item C03463546",
+      "source": "eclipse"
+    },
+    {
+      "title": "Fostering and Adoption Workshop",
+      "allDay": true,
+      "start": "20190222T9:00:00",
+      "end": "20190224T17:00:00",
+      "desc": "Training course for new staff",
+      "source": "eclipse"
+    }
+  ]
 }
