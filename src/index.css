@@ -1,12 +1,16 @@
+html,
 body {
+  height: 100%;
   margin: 0;
-  padding: 15px;
+}
+
+body {
   font-family: sans-serif;
-  background-color: #e2e2e2;
+  background-color: #f6f6f6;
 }
 
 .calendar-container {
-  height: 75vh;
+  height: 100vh;
 }
 
 .rbc-time-view,

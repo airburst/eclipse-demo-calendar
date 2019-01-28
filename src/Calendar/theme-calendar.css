@@ -1,0 +1,65 @@
+:root {
+  --green: rgb(4, 147, 114);
+  --blue: rgb(37, 116, 169);
+  --red: rgb(192, 57, 43);
+  --orange: rgb(249, 105, 14);
+  --yellow: rgb(244, 208, 63);
+  --grey: rgb(108, 122, 137);
+  --black: rgb(46, 49, 49);
+  --back: rgb(243, 241, 239);
+  --today: rgb(236, 240, 241);
+}
+
+/* Buttons and toolbar */
+.rbc-calendar.race .rbc-btn-group {
+  position: absolute;
+  left: 16px;
+}
+
+.rbc-calendar.race .rbc-toolbar {
+  padding: 16px;
+  margin: 0;
+  background-color: var(--back);
+}
+
+.rbc-calendar.race .rbc-toolbar-label {
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.rbc-calendar.race button.rbc-active,
+.rbc-calendar.race .rbc-toolbar button:hover  {
+  box-shadow: none;
+  background-color: #ccc;
+  cursor: pointer;
+}
+/* TODO: fix position for mobile and toolbar font size with media query */
+/* End Buttons and toolbar */
+
+/* Month grid */
+.rbc-calendar.race {
+  color: #262626;
+}
+
+.rbc-calendar.race .rbc-day-bg.rbc-off-range-bg {
+  background-color: var(--back);
+}
+
+.rbc-day-bg.rbc-today {
+  background-color: var(--today);
+}
+
+/* End Month grid */
+
+
+/* Events */
+.rbc-event.eclipse {
+  background-color: var(--green);
+}
+.rbc-event.outlook {
+  background-color: var(--blue);
+}
+.rbc-event.rbc-selected {
+  background-color: var(--red);
+}
