@@ -1,28 +1,26 @@
 {
   "events": [
     {
-      "title": "Panel Meeting",
+      "title": "Odd Down Winter Series",
       "allDay": false,
-      "start": "20190214T10:30:00",
-      "end": "20190214T11:30:00",
-      "desc": "A short meeting",
-      "source": "outlook"
+      "start": "20190213T10:30:00",
+      "end": "20190213T11:30:00",
+      "source": "bc"
     },
     {
-      "title": "Checklist Action: Visit Edith Swan",
+      "title": "LVRC Umpton",
       "allDay": false,
-      "start": "20190216T9:00:00",
-      "end": "20190216T9:00:00",
-      "desc": "Checklist item C03463546",
-      "source": "eclipse"
+      "start": "20190217T9:00:00",
+      "end": "20190217T9:00:00",
+      "desc": "Entries open on ...",
+      "source": "lvrc"
     },
     {
-      "title": "Fostering and Adoption Workshop",
+      "title": "Cotswold League Race: Minety",
       "allDay": true,
-      "start": "20190222T9:00:00",
-      "end": "20190224T17:00:00",
-      "desc": "Training course for new staff",
-      "source": "eclipse"
+      "start": "20190224T9:00:00",
+      "end": "20190224T12:00:00",
+      "source": "bc"
     }
   ]
 }

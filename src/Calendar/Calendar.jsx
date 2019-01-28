@@ -23,7 +23,7 @@ const MyEvent = ({ event }) => {
   return (
     <span>
       <strong>{event.title}</strong>
-      <p>{event.desc}</p>
+      {event.desc && <p className="event-description">{event.desc}</p>}
     </span>
   );
 };
@@ -33,7 +33,7 @@ const EventAgenda = ({ event }) => {
   return (
     <span>
       <strong>{event.title} {source}</strong>
-      <p>{event.desc}</p>
+      <p className="event-description">{event.desc}</p>
     </span>
   );
 };

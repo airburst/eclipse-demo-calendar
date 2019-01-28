@@ -54,10 +54,24 @@
 
 
 /* Events */
-.rbc-event.eclipse {
+.rbc-event {
+  border-radius: 3px;
+}
+
+.rbc-row-segment {
+  padding: 0 4px 2px 4px;
+}
+
+.event-description {
+  padding: 4px 0 2px 0;
+  margin: 0;
+}
+
+/* Event types -> colours */
+.rbc-event.lvrc {
   background-color: var(--green);
 }
-.rbc-event.outlook {
+.rbc-event.bc {
   background-color: var(--blue);
 }
 .rbc-event.rbc-selected {
