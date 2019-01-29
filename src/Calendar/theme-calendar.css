@@ -5,7 +5,9 @@
   --off-day-hover: rgb(218, 223, 225);
   --today: rgb(228, 241, 254);
   --green: rgb(4, 147, 114);
+  --palegreen: rgb(200, 247, 197);
   --blue: rgb(37, 116, 169);
+  --paleblue: rgb(228, 241, 254);
   --red: rgb(192, 57, 43);
   --orange: rgb(249, 105, 14);
   --yellow: rgb(244, 208, 63);
@@ -68,12 +70,13 @@
   color: #262626;
 }
 
-.rbc-calendar.race .rbc-day-bg.rbc-off-range-bg {
+.rbc-calendar.race .rbc-day-bg.rbc-off-range-bg[!.rbc-today] {
   background-color: var(--back);
 }
 
 .rbc-day-bg.rbc-today {
   background-color: var(--today);
+  border-top: 3px solid var(--blue);
 }
 /* End Month grid */
 
@@ -91,7 +94,7 @@
   background-color: var(--back);
 }
 .rbc-event.rbc-selected {
-  background-color: var(--blue);
+  background-color: var(--blue) !important;
   color: white !important;
 }
 
@@ -102,8 +105,10 @@
 
 /* Event types -> colours */
 .rbc-event.lvrc {
-  color: var(--green);
+  background-color: var(--palegreen);
+  color: var(--black);
 }
 .rbc-event.bc {
-  color: var(--blue);
+  background-color: var(--paleblue);
+  color: var(--black);
 }
