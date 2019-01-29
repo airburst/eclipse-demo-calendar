@@ -1,4 +1,9 @@
 :root {
+  --back: rgb(238, 238, 238);
+  --borders: rgb(243, 241, 239);
+  --day-hover: rgb(236, 240, 241);
+  --off-day-hover: rgb(218, 223, 225);
+  --today: rgb(228, 241, 254);
   --green: rgb(4, 147, 114);
   --blue: rgb(37, 116, 169);
   --red: rgb(192, 57, 43);
@@ -6,26 +11,23 @@
   --yellow: rgb(244, 208, 63);
   --grey: rgb(108, 122, 137);
   --black: rgb(46, 49, 49);
-  --back: rgb(243, 241, 239);
-  --today: rgb(236, 240, 241);
 }
 
-/* Buttons and toolbar */
-.rbc-calendar.race .rbc-btn-group {
-  position: absolute;
-  left: 16px;
+.rbc-toolbar .rbc-toolbar-label {
+  text-align: left;
+  padding-left: 32px;
 }
 
 .rbc-calendar.race .rbc-toolbar {
-  padding: 16px;
+  padding: 8px;
   margin: 0;
   background-color: var(--back);
 }
 
 .rbc-calendar.race .rbc-toolbar-label {
   font-weight: 700;
-  font-size: 2em;
-  text-transform: uppercase;
+  /* font-size: 2em; */
+  /* text-transform: uppercase; */
 }
 
 .rbc-calendar.race button.rbc-active,
@@ -34,10 +36,34 @@
   background-color: #ccc;
   cursor: pointer;
 }
-/* TODO: fix position for mobile and toolbar font size with media query */
 /* End Buttons and toolbar */
 
 /* Month grid */
+.rbc-month-row,
+.rbc-header + .rbc-header {
+  border-left: 0;
+}
+.rbc-month-view {
+  border: 0;
+}
+.rbc-header {
+  padding: 8px;
+  border-bottom: 1px solid var(--borders);
+}
+.rbc-month-row + .rbc-month-row {
+  border-top: 1px solid var(--borders);
+}
+.rbc-day-bg + .rbc-day-bg {
+  border: 0;
+}
+.rbc-day-bg:hover {
+  background-color: var(--day-hover);
+  cursor: pointer;
+}
+.rbc-day-bg.rbc-off-range-bg:hover {
+  background-color: var(--off-day-hover) !important;
+}
+
 .rbc-calendar.race {
   color: #262626;
 }
@@ -49,17 +75,24 @@
 .rbc-day-bg.rbc-today {
   background-color: var(--today);
 }
-
 /* End Month grid */
 
 
 /* Events */
-.rbc-event {
-  border-radius: 3px;
-}
-
 .rbc-row-segment {
   padding: 0 4px 2px 4px;
+}
+
+.rbc-event {
+  background-color: transparent;
+  border-radius: 0;
+}
+.rbc-event:hover {
+  background-color: var(--back);
+}
+.rbc-event.rbc-selected {
+  background-color: var(--blue);
+  color: white !important;
 }
 
 .event-description {
@@ -69,11 +102,8 @@
 
 /* Event types -> colours */
 .rbc-event.lvrc {
-  background-color: var(--green);
+  color: var(--green);
 }
 .rbc-event.bc {
-  background-color: var(--blue);
-}
-.rbc-event.rbc-selected {
-  background-color: var(--red);
+  color: var(--blue);
 }
