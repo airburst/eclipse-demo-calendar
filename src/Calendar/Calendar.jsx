@@ -2,17 +2,16 @@ import moment from 'moment';
 import React, { Component } from 'react';
 import BigCalendar from 'react-big-calendar';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
-import { events } from './events.json';
+import CalendarToolbar from './CalendarToolbar';
 import './theme-calendar.css';
 
 const localizer = BigCalendar.momentLocalizer(moment)
-const data = events;
 
 const convertDateFromString = (string) => {
   return moment(string, 'YYYYMMDDTHH:mm:SS').toDate();
 };
 
-const parsedEvents = data.map(e => {
+const parseEvents = data => data.map(e => {
   return Object.assign(e, {
     start: convertDateFromString(e.start),
     end: convertDateFromString(e.end)
@@ -50,6 +49,8 @@ class Calendar extends Component {
   }
 
   render() {
+    const { data } = this.props;
+
     return (
       <div className="calendar-container" {...this.props}>
         <BigCalendar
@@ -58,13 +59,14 @@ class Calendar extends Component {
           selectable
           culture='en-GB'
           popup
-          events={parsedEvents}
+          events={parseEvents(data)}
           views={['month']}
           defaultView='month'
           onSelectEvent={this.handleEventSelect}
           onSelectSlot={this.handleSlotSelect}
           components={{
             event: MyEvent,
+            toolbar: CalendarToolbar,
             agenda: { event: EventAgenda }
           }}
           eventPropGetter={e => ({ className: e.source })}

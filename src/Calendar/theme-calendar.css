@@ -1,8 +1,8 @@
 :root {
   --back: rgb(238, 238, 238);
   --borders: rgb(243, 241, 239);
-  --day-hover: rgb(236, 240, 241);
-  --off-day-hover: rgb(218, 223, 225);
+  --day-hover: #f6f6f6;
+  --off-day-hover: #f3f3f3;
   --today: rgb(228, 241, 254);
   --green: rgb(4, 147, 114);
   --palegreen: rgb(200, 247, 197);
@@ -70,6 +70,9 @@
 .rbc-date-cell, .rbc-date-cell.rbc-off-range {
   font-size: 1.2em;
   color: var(--grey);
+  text-align: left;
+  padding-left: 4px;
+  padding-top: 2px;
 }
 .rbc-day-bg + .rbc-day-bg {
   border: 0;
