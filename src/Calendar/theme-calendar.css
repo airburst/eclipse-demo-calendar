@@ -15,15 +15,23 @@
   --black: rgb(46, 49, 49);
 }
 
+.rbc-calendar.race .rbc-toolbar {
+  min-height: 48px;
+}
 .rbc-toolbar .rbc-toolbar-label {
   text-align: left;
   padding-left: 32px;
 }
 
-.rbc-calendar.race .rbc-toolbar {
-  padding: 8px;
+.rbc-calendar.race {
   margin: 0;
   background-color: var(--back);
+}
+
+.rbc-toolbar {
+  padding: 8px;
+  margin: 0;
+  background-color: white;
 }
 
 .rbc-calendar.race .rbc-toolbar-label {
@@ -41,19 +49,27 @@
 /* End Buttons and toolbar */
 
 /* Month grid */
+.rbc-month-view {
+  max-height: calc(100% - 48px);
+  border: 0;
+}
+.rbc-row.rbc-month-header {
+  background-color: #f6f6f6;
+}
 .rbc-month-row,
 .rbc-header + .rbc-header {
   border-left: 0;
 }
-.rbc-month-view {
-  border: 0;
-}
 .rbc-header {
   padding: 8px;
-  border-bottom: 1px solid var(--borders);
+  border-bottom: 0;
 }
 .rbc-month-row + .rbc-month-row {
   border-top: 1px solid var(--borders);
+}
+.rbc-date-cell, .rbc-date-cell.rbc-off-range {
+  font-size: 1.2em;
+  color: var(--grey);
 }
 .rbc-day-bg + .rbc-day-bg {
   border: 0;
@@ -70,8 +86,8 @@
   color: #262626;
 }
 
-.rbc-calendar.race .rbc-day-bg.rbc-off-range-bg[!.rbc-today] {
-  background-color: var(--back);
+.rbc-calendar.race .rbc-day-bg.rbc-off-range-bg:not(.rbc-today) {
+  background-color: #fbfbfb;
 }
 
 .rbc-day-bg.rbc-today {
